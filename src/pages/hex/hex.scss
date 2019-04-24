@@ -1,0 +1,49 @@
+.hex {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fefefe;
+    display: flex;
+    flex-direction: column;
+    transition-delay: 0ms;
+    transition-duration: 0.2s;
+}
+.header {
+    position: absolute;
+    padding-top: 8%;
+    padding-left: 1%;
+    color: gray;
+    font-weight: 300;
+}
+.container {
+    margin-top: 20%;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    align-self: center;
+    border-radius: 3%;
+    border: 4px lightcoral dotted;
+    transition-duration: .3s;
+}
+#myCanvas {
+    border-radius: 3%;
+    background-color: #eee;
+}
+.display {
+    color: rgb(97, 96, 96);
+    display: inline-flex;
+    margin: 2%;
+    border-radius: 20px;
+    box-shadow: 0 2px 15px lightgray;
+}
+.display2 {
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+    color: #fce0d1;
+    width: 50%;
+    border-radius: 30px;
+    background: #fa1126;
+    overflow: hidden;
+    box-shadow: 0 5px 15px lightgray;
+}

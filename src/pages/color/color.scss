@@ -1,0 +1,69 @@
+.color {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fefefe;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.2s;
+}
+.header {
+    position: absolute;
+    padding-top: 8%;
+    padding-left: 1%;
+    color: gray;
+    font-weight: 300;
+}
+.color-area {
+    align-self: center;
+    margin-top: 20%;
+    width: 90%;
+    height: 50%;
+    border-radius: 3%;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 0px 20px 35px rgb(165, 104, 104);
+    display: flex;
+    align-items: stretch;
+}
+.setting-area {
+    display: flex;
+    flex-direction: column;
+    margin: 15% 5% 5% 5%;
+    border-radius: 30px;
+    transition-duration: .2s;
+    box-shadow: 5px 10px 40px rgb(189, 109, 109);
+}
+.sub-setting {
+    display: inline-flex;
+    margin: 20px;
+    input {
+        border: 2px dotted lightcoral;
+        border-radius: 16px;
+        margin-right: 20px;
+    }
+    button {
+        color: #fce0d1;
+        height: 50px;
+        width: 240px;
+        padding: 0;
+        line-height: 50px;
+        text-align: center;
+        margin-right: 5%;
+        background: #fa1126;
+        border-radius: 25px;
+        box-shadow: 0 20px 40px lightcoral;
+    }
+}
+.defaultColor {
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+    color: #fce0d1;
+    width: 50%;
+    border-radius: 30px;
+    background: #fa1126;
+    margin: 50px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px lightcoral;
+}
